@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 80%;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid 1px white;
+    border-radius: 10px;
+    box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.342);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+}
+.container-work-text{
+    width: 80%;
+    height: 100%;
+}
+.container-work img{
+    width: 50px;
+}
+.container-work input{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    padding: 5px;
+}
+.container-add{
+    width: 100%;
+    background-color: rgb(42, 179, 133);
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+    overflow: scroll;
+    padding-block: 10px;
+}
+.container-add-work{
+    width: 85%;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+}
+.trash{
+    width: 50px;
+}
+.container-add-work h4{
+    font-size: 25px;
+}
